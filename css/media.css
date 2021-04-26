@@ -1,0 +1,406 @@
+@media (max-width: 1170px) {
+  .services__items {
+    -ms-grid-rows: (1fr)[4];
+    -ms-grid-columns: (1fr)[2];
+        grid-template: repeat(4, 1fr)/repeat(2, 1fr);
+  }
+  .services__item_adaptive {
+    grid-column: span 1;
+  }
+  .direction {
+    padding: 30px 0 10px;
+  }
+  .direction__card {
+    padding: 20px 35px 10px 38px;
+  }
+  .direction__bottom-links {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .test__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .test__left-col {
+    border-right: 0;
+  }
+  .test__right-col {
+    border-bottom: 3px solid #f6f6f6;
+  }
+}
+
+@media (max-width: 1070px) {
+  .header {
+    background-color: #eef3fa;
+  }
+  .first-screen {
+    padding-bottom: 40px;
+    background-color: #eef3fa;
+  }
+  .first-screen__bg {
+    display: none;
+  }
+}
+
+@media (max-width: 1020px) {
+  .about {
+    padding: 20px 0 45px;
+  }
+  .about__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about__slider {
+    margin-left: 0;
+    width: 90%;
+    max-width: 555px;
+  }
+  .about__body, .about__title {
+    text-align: center;
+  }
+  .about__btn {
+    margin: 15px auto;
+  }
+  .about__slider-small-img {
+    height: 100%;
+  }
+  .director__title-text {
+    max-width: 470px;
+  }
+  .footer__logo-text {
+    display: none;
+  }
+}
+
+@media (max-width: 970px) {
+  .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product__item {
+    width: 80%;
+  }
+  .product__img, .product__img-sub {
+    width: 100%;
+  }
+  .direction__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .direction__card {
+    max-width: 555px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 940px) {
+  .logo__text {
+    display: none;
+  }
+  .first-screen__items {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .first-screen__item_3 {
+    margin: 0 0 0 150px;
+  }
+  .director__inner {
+    background-position: 20% 101%;
+    padding-bottom: 600px;
+  }
+  .director__title-text {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 840px) {
+  .footer__columns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .footer__col-logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0 auto;
+  }
+  .footer__logo-text {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .services__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services__item {
+    min-width: 80%;
+    min-height: 350px;
+    max-width: 80%;
+    max-height: 350px;
+  }
+  .services__item_wide {
+    grid-column: span 1;
+  }
+  .services__item_high {
+    grid-row: span 1;
+  }
+  .services__text {
+    margin: 15px 0;
+    position: static;
+  }
+  .services__btn {
+    position: static;
+  }
+  .services__title {
+    position: static;
+  }
+  .services__img-gradient {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .services__content {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .apartaments-filter {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .apartaments-filter__item {
+    width: 33.333%;
+  }
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 25px;
+  }
+  .title-text {
+    font-size: 18px;
+  }
+  .header__contacts {
+    display: none;
+  }
+  .first-screen__title, .first-screen__title-text {
+    text-align: center;
+  }
+  .first-screen__title {
+    font-size: 36px;
+  }
+  .first-screen__title-text {
+    font-size: 20px;
+  }
+  .first-screen__item {
+    margin: 0 auto;
+  }
+  .first-screen__item-text {
+    margin-right: 20px;
+  }
+  .first-screen__champagne {
+    margin: 20px auto 30px;
+  }
+  .first-screen__btn {
+    margin: 0 auto;
+  }
+  .test__left-col-boxes {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .test__left-col-title {
+    text-align: center;
+  }
+  .test__left-col-box_first {
+    margin-right: 0;
+  }
+  .test .direction__title {
+    font-size: 28px;
+  }
+  .product__item {
+    width: 100%;
+  }
+  .footer__col-logo {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .footer__columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__col-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__btn {
+    min-width: 270px;
+    width: 70%;
+    max-width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .test__bottom-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .test__next {
+    margin-top: 15px;
+  }
+  .first-screen__item-num {
+    font-size: 70px;
+  }
+  .about__slider {
+    min-width: 90%;
+  }
+  .product__price-full {
+    font-size: 26px;
+    font-weight: 300;
+  }
+  .product__title {
+    font-size: 20px;
+  }
+  .apartaments-filter__item {
+    width: 50%;
+  }
+  .direction__card {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .direction__card-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  .direction__phone-number {
+    display: block;
+  }
+  .direction__img {
+    margin: 15px auto 0;
+    height: auto;
+    max-width: 135px;
+  }
+  .direction__card-subtitle {
+    text-align: center;
+    min-height: auto;
+    font-size: 18px;
+  }
+  .director__inner {
+    background: transparent;
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .first-screen__title {
+    font-size: 25px;
+  }
+  .first-screen__title-text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .first-screen__btn {
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+  }
+  .first-screen__champagne-text {
+    font-size: 14px;
+  }
+  .services__item {
+    min-width: 100%;
+  }
+  .about__slider {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .product__lot, .product__title {
+    text-align: center;
+  }
+  .product__dimensions-square {
+    margin: 15px 0;
+  }
+  .product__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .about {
+    padding: 10px 0 35px;
+  }
+  .about__slider {
+    display: none;
+  }
+  .footer__logo-text {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .apartaments-filter__item {
+    width: 90%;
+  }
+  .direction__card-subtitle {
+    font-size: 18px;
+  }
+  .direction__phone-number {
+    font-size: 20px;
+  }
+}

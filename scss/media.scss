@@ -1,0 +1,409 @@
+@media (max-width: 1170px) {
+    .services {
+        &__items {
+            grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+        }
+        &__item_adaptive {
+            grid-column: span 1;
+        }
+    }
+    .direction {
+        padding: 30px 0 10px;
+        &__card {
+            padding: 20px 35px 10px 38px;
+        }
+        &__bottom-links {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .test {
+        &__block {
+            flex-direction: column-reverse;
+        }
+        &__left-col {
+            border-right: 0;
+        }
+        &__right-col {
+            border-bottom: 3px solid #f6f6f6;
+        }
+    }
+}
+
+@media (max-width: 1070px) {
+    .header {
+        background-color: #eef3fa;
+    }
+    .first-screen {
+        padding-bottom: 40px;
+        background-color: #eef3fa;
+        &__bg {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .about {
+        padding: 20px 0 45px;
+        &__inner {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__slider {
+            margin-left: 0;
+            width: 90%;
+            max-width: 555px;
+        }
+        &__body,
+        &__title {
+            text-align: center;
+        }
+        &__btn {
+            margin: 15px auto;
+        }
+        &__slider-small-img {
+            height: 100%;
+        }
+    }
+    .director {
+        &__title-text {
+            max-width: 470px;
+        }
+    }
+    .footer {
+        &__logo-text {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 970px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+        &__item {
+            width: 80%;
+        }
+        &__img,
+        &__img-sub {
+            width: 100%;
+        }
+    }
+    .direction {
+        &__cards {
+            flex-direction: column;
+        }
+        &__card {
+            max-width: 555px;
+            margin: 0 auto 30px;
+        }
+    }
+}
+
+@media (max-width: 940px) {
+    .logo__text {
+        display: none;
+    }
+    .first-screen {
+        &__items {
+            justify-content: start;
+        }
+        &__item_3 {
+            margin: 0 0 0 150px;
+        }
+    }
+    .director {
+        &__inner {
+            background-position: 20% 101%;
+            padding-bottom: 600px;
+        }
+        &__title-text {
+            max-width: 700px;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .footer {
+        &__columns {
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+        &__col-logo {
+            order: 1;
+            margin: 0 auto;
+        }
+        &__logo-text {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            min-width: 80%;
+            min-height: 350px;
+            max-width: 80%;
+            max-height: 350px;
+            &_wide {
+                grid-column: span 1;
+            }
+            &_high {
+                grid-row: span 1;
+            }
+        }
+        &__text {
+            margin: 15px 0;
+            position: static;
+        }
+        &__btn {
+            position: static;
+        }
+        &__title {
+            position: static;
+        }
+        &__img-gradient {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        &__content {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 80%;
+            margin: 0 10%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .apartaments-filter {
+        flex-wrap: wrap;
+        &__item {
+            width: 33.333%;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .title {
+        font-size: 25px;
+    }
+    .title-text {
+        font-size: 18px;
+    }
+    .header__contacts {
+        display: none;
+    }
+    .first-screen {
+        &__title,
+        &__title-text {
+            text-align: center;
+        }
+        &__title {
+            font-size: 36px;
+        }
+        &__title-text {
+            font-size: 20px;
+        }
+        &__item {
+            margin: 0 auto;
+        }
+        &__item-text {
+            margin-right: 20px;
+        }
+        &__champagne {
+            margin: 20px auto 30px;
+        }
+        &__btn {
+            margin: 0 auto;
+        }
+    }
+    .test {
+        &__left-col-boxes {
+            flex-wrap: wrap;
+        }
+        &__left-col-title {
+            text-align: center;
+        }
+        &__left-col-box {
+            &_first {
+                margin-right: 0;
+            }
+        }
+        .direction {
+            &__title {
+                font-size: 28px;
+            }
+        }
+    }
+    .product {
+        &__item {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__col-logo {
+            order: 0;
+        }
+        &__columns {
+            flex-direction: column;
+        }
+        &__col-info {
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__btn {
+            min-width: 270px;
+            width: 70%;
+            max-width: 90%;
+            margin: 20px auto;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .test {
+        &__bottom-info {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__next {
+            margin-top: 15px;
+        }
+    }
+    .first-screen {
+        &__item-num {
+            font-size: 70px;
+        }
+    }
+    .about {
+        &__slider {
+            min-width: 90%;
+        }
+    }
+    .product {
+        &__price-full {
+            font-size: 26px;
+            font-weight: 300;
+        }
+        &__title {
+            font-size: 20px;
+        }
+    }
+    .apartaments-filter {
+        &__item {
+            width: 50%;
+        }
+    }
+    .direction {
+        &__card {
+            width: 90%;
+            padding-bottom: 20px;
+        }
+        &__card-inner {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+        &__phone-number {
+            display: block;
+        }
+        &__img {
+            margin: 15px auto 0;
+            height: auto;
+            max-width: 135px;
+        }
+        &__card-subtitle {
+            text-align: center;
+            min-height: auto;
+            font-size: 18px;
+        }
+    }
+    .director {
+        &__inner {
+            background: transparent;
+            padding: 40px 0;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .first-screen {
+        &__title {
+            font-size: 25px;
+        }
+        &__title-text {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+        &__btn {
+            width: 100%;
+            height: 70px;
+            font-size: 18px;
+        }
+        &__champagne-text {
+            font-size: 14px;
+        }
+    }
+    .services {
+        &__item {
+            min-width: 100%;
+        }
+    }
+    .about {
+        &__slider {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .product {
+        &__lot,
+        &__title {
+            text-align: center;
+        }
+        &__dimensions-square {
+            margin: 15px 0;
+        }
+        &__info {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .about {
+        padding: 10px 0 35px;
+        &__slider {
+            display: none;
+        }
+    }
+    .footer {
+        &__logo-text {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .apartaments-filter__item {
+        width: 90%;
+    }
+    .direction {
+        &__card-subtitle {
+            font-size: 18px;
+        }
+        &__phone-number {
+            font-size: 20px;
+        }
+    }
+}
