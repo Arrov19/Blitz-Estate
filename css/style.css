@@ -210,9 +210,7 @@
 }
 
 .menu.active .menu__list-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  pointer-events: auto;
 }
 
 .menu.active .menu__item {
@@ -368,7 +366,10 @@
   top: 0;
   z-index: 104;
   height: 100%;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  pointer-events: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
