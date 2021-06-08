@@ -209,6 +209,12 @@
   background-color: #fff;
 }
 
+.menu.active .menu__list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .menu.active .menu__item {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -362,9 +368,7 @@
   top: 0;
   z-index: 104;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
